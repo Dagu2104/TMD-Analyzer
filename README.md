@@ -10,6 +10,7 @@ Interactive program for the optimization of Tuned Mass Damper (TMD) dynamic para
 Not required. Access between streamlit link.
 
 ## Functionalities
+### Side Bar
 In the side bar the user can do the following action:
 - Input all structural characteristics, such as spans, bays, number of stories, story heights, member sections, and floor weights. (It is possible to define specific heights or distances for  floors and spans respectively).
 
@@ -17,6 +18,7 @@ In the side bar the user can do the following action:
   <img src="./VISUAL README/SIDE BAR.png" alt="Side Bar" width="300" height="800" />
 </p>
 
+### General Data
 In the first tab, labeled "General Data" is allowed:
 
 - Plot the entire structure with the provided data.
@@ -27,6 +29,8 @@ In the first tab, labeled "General Data" is allowed:
 <p align="center">
   <img src="./VISUAL README/DYNAMIC_PROP.png" alt="TABLE DYNAMIC PROP" width="1200" height="1200" />
 </p>
+
+### Seismic Record Data
 In the second tab, labeled "Seismic Record Data" the user can:
 - Upload a seismic ground-motion record in PEER format.
 <p align="center">
