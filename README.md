@@ -56,7 +56,10 @@ In the third tab, the program displays the following information:
 <p align="center">
   <img src="./VISUAL README/RESULTS_CLOUD.png" alt="RESULTS CLOUD" width="800" height="1200" />
 </p>
-
+-
+<p align="center">
+  <img src="./VISUAL README/OPTIMAL_TMD_PARAMETERS.png" alt="OPTIMAL TMD PARAMETERS" width="800" height="1200" />
+</p>
 ## Installer
 
 - Download the software installer by clicking on the following image:
