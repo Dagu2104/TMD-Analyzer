@@ -359,7 +359,7 @@ with tab1:
                     '</a>',
                         unsafe_allow_html=True
                     )
-        st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Supervisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
+        st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Advisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
                             
 
 
@@ -461,6 +461,7 @@ with tab4:                                                                      
     Respuesta_Acc_TMD,alturas, modelo, modelo.nice_dtick,modelo.nice_ylim)
 
 st.markdown("---")                                                                                                  # Horizontal separator
+
 
 
 
