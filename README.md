@@ -1,4 +1,4 @@
-# TMD-Analyzer Software.
+ # TMD-Analyzer Software.
 
 ## Description
 
@@ -14,14 +14,14 @@ In the side bar the user can do the following action:
 - Input all structural characteristics, such as spans, bays, number of stories, story heights, member sections, and floor weights. (It is possible to define specific heights o distances for  floors and spans respectively).
 
 <p align="center">
-  <img src="./VISUAL README/SIDE BAR.png" alt="Plot structure" width="300" height="800" />
+  <img src="./VISUAL README/SIDE BAR.png" alt="Side Bar" width="300" height="800" />
 </p>
 
 In the first tab, labeled "General Data" is allowed:
 
 - Plot the entire structure with the provided data.
 <p align="center">
-  <img src="./VISUAL README/PLOT_STRUCTURE.PNG" alt="Plot structure" width="600" height="1200" />
+  <img src="./VISUAL README/PLOT_STRUCTURE.png" alt="Plot structure" width="600" height="1200" />
 </p>
 - The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios.
 
