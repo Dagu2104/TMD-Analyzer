@@ -37,6 +37,12 @@ In the second tab, labeled "Seismic Record Data" the user can:
   <img src="./VISUAL README/PEER_FORMAT.png" alt="PEER FORMAT" width="800" height="1200" />
 </p>
 - The program automatically detects the time step and the number of data points. The program internally inserts an initial data point at t = 0 seconds with a corresponding acceleration of 0 g, ensuring proper initialization of the ground-motion record.
+- Plot the PEER seismic record data.
+<p align="center">
+  <img src="./VISUAL README/PEER_FORMAT.png" alt="PEER FORMAT" width="800" height="1200" />
+</p>
+- Specificate the target frequency range for band-pass filtering of the seismic ground-motion record.
+- Plot the filtered seismic ground-motion record.
 
 ## Installer
 
