@@ -84,7 +84,7 @@ In this tab, the user can observe the structural response to a seismic record an
   - The first figure illustrates the maximum absolute peak interstory drift ratios derived from the time-history analysis. The second figure displays the corresponding maximum absolute peak floor accelerations
  
 <p align="center">
-  <img src="./VISUAL README/DRIFT_ACCELERATION.png" alt="PLOTS DRIFT ACCELERATION" width="800" height="800" />
+  <img src="./VISUAL README/DRIFT_ACCELATARION.png" alt="PLOTS DRIFT ACCELERATION" width="800" height="800" />
 </p>
 ## Installer
 
