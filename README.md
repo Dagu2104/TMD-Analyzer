@@ -1,4 +1,4 @@
- # TMD-Analyzer Software.
+# TMD-Analyzer Software.
 
 ## Description
 
@@ -11,7 +11,7 @@ Not required. Access between streamlit link.
 
 ## Functionalities
 In the side bar the user can do the following action:
-- Input all structural characteristics, such as spans, bays, number of stories, story heights, member sections, and floor weights. (It is possible to define specific heights o distances for  floors and spans respectively).
+- Input all structural characteristics, such as spans, bays, number of stories, story heights, member sections, and floor weights. (It is possible to define specific heights or distances for  floors and spans respectively).
 
 <p align="center">
   <img src="./VISUAL README/SIDE BAR.png" alt="Side Bar" width="300" height="800" />
@@ -23,7 +23,7 @@ In the first tab, labeled "General Data" is allowed:
 <p align="center">
   <img src="./VISUAL README/PLOT_STRUCTURE.png" alt="Plot structure" width="900" height="1400" />
 </p>
-- The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios.
+- The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios (%).
 <p align="center">
   <img src="./VISUAL README/DYNAMIC_PROP.png" alt="TABLE DYNAMIC PROP" width="1200" height="1200" />
 </p>
@@ -32,7 +32,7 @@ In the second tab, labeled "Seismic Record Data" the user can:
 <p align="center">
   <img src="./VISUAL README/PEER_FORMAT.png" alt="PEER FORMAT" width="800" height="1200" />
 </p>
-- The program automatically detects the time step and the number of data points.
+- The program automatically detects the time step and the number of data points. The program internally inserts an initial data point at t = 0 s with a corresponding acceleration of 0, ensuring proper initialization of the ground-motion record.
 
 ## Installer
 
