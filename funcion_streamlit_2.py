@@ -1027,8 +1027,8 @@ class PorticoAnalyzer:
                         range=[-xlim_common, xlim_common], row=1, col=1)                                                # Update x-axis for structure without TMD
         fig.update_xaxes(title_text=f"Displacement ({unit_u})",
                         range=[-xlim_common, xlim_common], row=1, col=2)                                                # Update x-axis for structure with TMD
-        fig.update_yaxes(title_text="Altura (m)", row=1, col=1)                                                         # Update y-axis for structure without TMD
-        fig.update_yaxes(title_text="Altura (m)", row=1, col=2)                                                         # Update y-axis for structure with TMD
+        fig.update_yaxes(title_text="Height (m)", row=1, col=1)                                                         # Update y-axis for structure without TMD
+        fig.update_yaxes(title_text="Height (m)", row=1, col=2)                                                         # Update y-axis for structure with TMD
 
         fig.update_yaxes(title_text="ag (g)", range=[-ylim_ag, ylim_ag], dtick=dtick_ag, row=2, col=1)                  # Update y-axis for ground acceleration without TMD
         fig.update_yaxes(title_text="ag (g)", range=[-ylim_ag, ylim_ag], dtick=dtick_ag, row=2, col=2)                  # Update y-axis for ground acceleration with TMD
@@ -1145,6 +1145,7 @@ class PorticoAnalyzer:
             st.plotly_chart(fig_acc, use_container_width=False)                                                         # Display the absolute acceleration plot
 
         
+
 
 
 
