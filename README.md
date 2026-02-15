@@ -22,9 +22,11 @@ In the side bar the user can do the following action:
 In the first tab, labeled "General Data" is allowed:
 
 - Plot the entire structure with the provided data.
+
 <p align="center">
   <img src="./VISUAL README/PLOT_STRUCTURE.png" alt="Plot structure" width="900" height="1400" />
 </p>
+
 - The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios (%).
 <p align="center">
   <img src="./VISUAL README/DYNAMIC_PROP.png" alt="TABLE DYNAMIC PROP" width="1200" height="1200" />
@@ -32,17 +34,23 @@ In the first tab, labeled "General Data" is allowed:
 
 ### Seismic Record Data
 In the second tab, labeled "Seismic Record Data" the user can:
+
 - Upload a seismic ground-motion record in PEER format.
+
 <p align="center">
   <img src="./VISUAL README/PEER_FORMAT.png" alt="PEER FORMAT" width="800" height="1200" />
 </p>
+
 - The program automatically detects the time step and the number of data points. The program internally inserts an initial data point at t = 0 seconds with a corresponding acceleration of 0 g, ensuring proper initialization of the ground-motion record.
 - Plot the PEER seismic record data.
+
 <p align="center">
   <img src="./VISUAL README/SEISMIC_RECORD.png" alt="SEISMIC RECORD" width="800" height="1200" />
 </p>
+
 - Specificate the target frequency range for band-pass filtering of the seismic ground-motion record.
 - Plot the filtered seismic ground-motion record.
+
 <p align="center">
   <img src="./VISUAL README/FILTERED_SEISMIC_RECORD.png" alt="FILTERED SEISMIC RECORD" width="800" height="1200" />
 </p>
