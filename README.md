@@ -53,10 +53,13 @@ In the third tab, the program displays the following information:
 
 - Display a table of vibration modes for the structure without the TMD, including modal frequencies and mass participation ratios, up to a cumulative mass participation of 90%. 
 - Also display a plot showing the reduction in interstory drift ratios achieved by the TMD
+
 <p align="center">
   <img src="./VISUAL README/RESULTS_CLOUD.png" alt="RESULTS CLOUD" width="800" height="1200" />
 </p>
+
 - The interstory drift ratio reduction (IDRR) is quantified by comparing the peak interstory drift ratios of the controlled (with TMD) and uncontrolled (without TMD) structural responses, thereby characterizing the global effectiveness of the TMD.
+
 <p align="center">
   <img src="./VISUAL README/OPTIMAL_TMD_PARAMETERS.png" alt="OPTIMAL TMD PARAMETERS" width="800" height="1200" />
 </p>
