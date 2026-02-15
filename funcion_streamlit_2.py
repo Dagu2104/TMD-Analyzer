@@ -388,7 +388,7 @@ class PorticoAnalyzer:
                 font=dict(size=18*escala, family="Arial Black", color="#3A08EF")                  # Title font properties
             ),
             xaxis=dict(                                                                             # X-axis configuration
-                title="Distancia [m]",                                                              # X-axis title
+                title="Distance [m]",                                                              # X-axis title
                 showgrid=True,                                                                      # Show grid lines
                 gridcolor="#525353",                                                                # Grid line color                         
                 zeroline=False,                                                                     # Do not show zero line
@@ -400,7 +400,7 @@ class PorticoAnalyzer:
                 scaleratio=1                                                                        # Equal scaling ratio                                 
             ),
             yaxis=dict(                                                                             # Y-axis configuration
-                title="Altura [m]",                                                                 # Y-axis title          
+                title="Height [m]",                                                                 # Y-axis title          
                 showgrid=True,                                                                      # Show grid lines
                 gridcolor="#525353",                                                                # Grid line color
                 zeroline=True,                                                                      # Show zero line
@@ -1143,4 +1143,5 @@ class PorticoAnalyzer:
             st.plotly_chart(fig2, use_container_width=False)                                                            # Display the drift ratio plot       
         with col2:                                                                                                      # Column where will be displayed absolute acceleration plot
             st.plotly_chart(fig_acc, use_container_width=False)                                                         # Display the absolute acceleration plot
+
         
