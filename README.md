@@ -72,6 +72,10 @@ In the third tab, the program displays the following information:
   <img src="./VISUAL README/OPTIMAL_TMD_PARAMETERS.png" alt="OPTIMAL TMD PARAMETERS" width="800" height="1200" />
 </p>
 
+### Animation Tab
+
+In this tab, the user can observe the behavior of the structure when it is being 
+- In this tab, the user can observe the structural behavior with and without the TMD under seismic loading
 
 
 
