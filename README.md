@@ -21,7 +21,7 @@ In the first tab, labeled "General Data" is allowed:
 
 - Plot the entire structure with the provided data.
 <p align="center">
-  <img src="./VISUAL README/PLOT_STRUCTURE.jpeg" alt="Plot structure" width="600" height="300" />
+  <img src="./VISUAL README/PLOT_STRUCTURE.jpeg" alt="Plot structure" width="600" height="500" />
 </p>
 - The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios.
 
