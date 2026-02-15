@@ -383,8 +383,8 @@ with tab1:
     MODOS=[]
     for piso in range(max(pisos)):                                                              
         MODOS.append({
-            "w(rad/seg)": w[piso],
-            "T(seg)": T[piso],
+            "w(rad/sec)": w[piso],
+            "T(sec)": T[piso],
             "%Participation ratio": Mei_pct[piso],
             "%Cumulative Participation ratio": Mei_pct_acum[piso]
         })
@@ -461,6 +461,7 @@ with tab4:                                                                      
     Respuesta_Acc_TMD,alturas, modelo, modelo.nice_dtick,modelo.nice_ylim)
 
 st.markdown("---")                                                                                                  # Horizontal separator
+
 
 
 
