@@ -76,13 +76,16 @@ In the third tab, the program displays the following information:
 
 In this tab, the user can observe the structural response to a seismic record and compare the behavior of the same structure with and without the TMD.
 
--
-
 <p align="center">
   <img src="./VISUAL README/ANIMATION.png" alt="ANIMATION" width="800" height="800" />
 </p>
 
-
+- At bottom of the page, the program offers two plots:
+  - The first figure illustrates the maximum absolute peak interstory drift ratios derived from the time-history analysis. The second figure displays the corresponding maximum absolute peak floor accelerations
+ 
+<p align="center">
+  <img src="./VISUAL README/DRIFT_ACCELERATION.png" alt="PLOTS DRIFT ACCELERATION" width="800" height="800" />
+</p>
 ## Installer
 
 - Download the software installer by clicking on the following image:
