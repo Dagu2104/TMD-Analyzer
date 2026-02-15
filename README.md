@@ -1,4 +1,4 @@
-# TMD-Analyzer
+# TMD-Analyzer Software.
 
 ## Description
 
@@ -14,6 +14,9 @@ In the first tab, labeled "General Data" is allowed:
 - Input all structural characteristics, such as spans, bays, number of stories, story heights, member sections, and floor weights. (It is possible to define specific heights o distances for  floors and spans respectively).
 - Plot the entire structure with the provided data.
 - The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios.
+In the second tab, labeled "Seismic Recor Data" the user can:
+-Upload a seismic ground-motion record in PEER format.
+-The program automatically detects the time step and the number of data points.
 
 ## Installer
 
