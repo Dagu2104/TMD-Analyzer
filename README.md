@@ -13,6 +13,10 @@ Not required. Access between streamlit link.
 In the side bar the user can do the following action:
 - Input all structural characteristics, such as spans, bays, number of stories, story heights, member sections, and floor weights. (It is possible to define specific heights o distances for  floors and spans respectively).
 
+<p align="center">
+  <img src="./VISUAL README/SIDE BAR.png" alt="Plot structure" width="600" height="300" />
+</p>
+
 In the first tab, labeled "General Data" is allowed:
 
 - Plot the entire structure with the provided data.
