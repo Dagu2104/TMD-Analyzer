@@ -322,7 +322,9 @@ with tab1:
         st.image("FOTO/FOTO_FPNG.png")
         st.markdown("- [Félix Navia](https://github.com/FelixNavia1992)")
         ### **You can find me on**
-        [![GitHub Bryan Guzmán](https://img.shields.io/github/followers/Dagu2104?label=follow&style=social)](https://github.com/Dagu2104)
+        st.markdown("""
+                    [![GitHub Bryan Guzmán](https://img.shields.io/github/followers/Dagu2104?...)](https://github.com/Dagu2104)
+                    """)
 
 
   
@@ -425,6 +427,7 @@ with tab4:                                                                      
 st.markdown("---")                                                                                                  # Horizontal separator
 
 st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Supervisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
+
 
 
 
