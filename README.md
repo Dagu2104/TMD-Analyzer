@@ -17,7 +17,7 @@ In the first tab, labeled "General Data" is allowed:
 - The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios.
 
 In the second tab, labeled "Seismic Recor Data" the user can:
-- Upload a seismic ground-motion record in PEER format.
+- Upload a seismic ground-motion record in PEER format. (
 - The program automatically detects the time step and the number of data points.
 
 ## Installer
