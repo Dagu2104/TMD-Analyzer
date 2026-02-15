@@ -13,7 +13,7 @@ Not required. Access between streamlit link.
 ### Side Bar
 In the side bar the user can do the following action:
 - Input all structural characteristics, such as spans, bays, number of stories, story heights, member sections, and floor weights. (It is possible to define specific heights or distances for  floors and spans respectively).
-
+- In addition, the program allows the user to choose the beam formulation, either Euler–Bernoulli or Timoshenko beam theory.
 <p align="center">
   <img src="./VISUAL README/SIDE BAR.png" alt="Side Bar" width="300" height="800" />
 </p>
