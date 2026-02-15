@@ -96,7 +96,7 @@ You can download the User Manual by clicking on the following link:
 - [Download the User Manual]()
 -->
 
-## Video for Installation
+## Video for using
 
-You can view and download the software installation video at the following link:
+You can view and learn how to use the software video at the following link:
 [Video](https://puceeduec-my.sharepoint.com/:v:/g/personal/meriverabo_puce_edu_ec/EQW5ooVRLFlFh4xyy14kCcYBj21V6zmJlNoDj3jcgiUeXg?e=AQzmLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
