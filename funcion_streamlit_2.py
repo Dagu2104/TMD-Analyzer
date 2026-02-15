@@ -999,7 +999,7 @@ class PorticoAnalyzer:
             updatemenus=[{
                 "type": "buttons",
                 "direction": "left",
-                "x": 0.0, "y": -1.10,
+                "x": 0.0, "y": 0.0,
                 "buttons": [
                     {"label": "▶ Play", "method": "animate",
                     "args": [None, {"frame": {"duration": int(1000/fps), "redraw": True}, "fromcurrent": True}]},
@@ -1145,4 +1145,5 @@ class PorticoAnalyzer:
             st.plotly_chart(fig_acc, use_container_width=False)                                                         # Display the absolute acceleration plot
 
         
+
 
