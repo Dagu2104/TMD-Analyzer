@@ -29,7 +29,9 @@ In the first tab, labeled "General Data" is allowed:
 </p>
 In the second tab, labeled "Seismic Record Data" the user can:
 - Upload a seismic ground-motion record in PEER format.
-
+<p align="center">
+  <img src="./VISUAL README/PEER_FORMAT.png" alt="PEER FORMAT" width="1200" height="1200" />
+</p>
 - The program automatically detects the time step and the number of data points.
 
 ## Installer
