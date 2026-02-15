@@ -52,6 +52,9 @@ In the second tab, labeled "Seismic Record Data" the user can:
 In the third tab, the program displays the following information:
 
 -
+<p align="center">
+  <img src="./VISUAL README/RESULTS_CLOUD.png" alt="RESULTS CLOUD" width="800" height="1200" />
+</p>
 
 ## Installer
 
