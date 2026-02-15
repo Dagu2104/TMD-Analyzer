@@ -46,6 +46,13 @@ In the second tab, labeled "Seismic Record Data" the user can:
 <p align="center">
   <img src="./VISUAL README/FILTERED_SEISMIC_RECORD.png" alt="FILTERED SEISMIC RECORD" width="800" height="1200" />
 </p>
+
+### Results
+
+In the third tab, the program displays the following information:
+
+-
+
 ## Installer
 
 - Download the software installer by clicking on the following image:
