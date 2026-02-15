@@ -320,7 +320,7 @@ with tab1:
         st.image("FOTO/FOTO_BDGR.png") 
         st.markdown(
     """
-    <div style="font-family: Arial, sans-serif; font-size:16px; font-weight:600;">
+    <div style="font-family: 'Times New Roman', serif; font-size:16px; font-weight:600;">
         • <a href="https://github.com/Dagu2104" target="_blank"
              style="text-decoration:none; color:#2C3E50;">
              Eng. Bryan Guzmán
@@ -463,6 +463,7 @@ with tab4:                                                                      
 st.markdown("---")                                                                                                  # Horizontal separator
 
 st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Supervisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
+
 
 
 
