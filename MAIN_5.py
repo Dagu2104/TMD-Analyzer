@@ -322,13 +322,25 @@ with tab1:
         st.markdown("""
                     [![GitHub Bryan Guzmán](https://img.shields.io/github/followers/Dagu2104?...)](https://github.com/Dagu2104)
                     """)
+        st.markdown(
+                    '<a href="mailto:bryan2104guzman@gmail.com">'
+                    '<img alt="Email" src="https://img.shields.io/badge/Email-bryan2104guzman@gmail.com-blue?style=flat&logo=gmail">'
+                    '</a>',
+                        unsafe_allow_html=True
+                    )
         st.image("FOTO/FOTO_FPNG.png")
         st.markdown("- [Félix Navia](https://github.com/FelixNavia1992)")
         st.markdown("""
                     [![GitHub Félix Navia](https://img.shields.io/github/followers/FelixNavia1992?...)](https://github.com/FelixNavia1992)
                     """)
-  
-        
+        st.markdown(
+                    '<a href="mailto:fpnavia@gmail.com">'
+                    '<img alt="Email" src="https://img.shields.io/badge/Email-fpnavia@gmail.com-blue?style=flat&logo=gmail">'
+                    '</a>',
+                        unsafe_allow_html=True
+                    )
+
+                            
 
 
   
@@ -431,6 +443,7 @@ with tab4:                                                                      
 st.markdown("---")                                                                                                  # Horizontal separator
 
 st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Supervisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
+
 
 
 
