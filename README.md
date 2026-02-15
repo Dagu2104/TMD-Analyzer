@@ -27,8 +27,9 @@ In the first tab, labeled "General Data" is allowed:
 <p align="center">
   <img src="./VISUAL README/DYNAMIC_PROP.png" alt="TABLE DYNAMIC PROP" width="1200" height="1200" />
 </p>
-In the second tab, labeled "Seismic Recor Data" the user can:
-- Upload a seismic ground-motion record in PEER format. (
+In the second tab, labeled "Seismic Record Data" the user can:
+- Upload a seismic ground-motion record in PEER format.
+
 - The program automatically detects the time step and the number of data points.
 
 ## Installer
