@@ -318,7 +318,17 @@ with tab1:
                     Masa.append(Pesosi/9.8067)                                                                                      # Convert weight to mass and store in list
         st.markdown("### 👨‍💻 Team")  
         st.image("FOTO/FOTO_BDGR.png") 
-        st.markdown("- [Bryan Guzmán](https://github.com/Dagu2104)")
+        st.markdown(
+    """
+    <div style="font-family: Arial, sans-serif; font-size:16px; font-weight:600;">
+        • <a href="https://github.com/Dagu2104" target="_blank"
+             style="text-decoration:none; color:#2C3E50;">
+             Eng. Bryan Guzmán
+          </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
         st.markdown("""
                     [![GitHub Bryan Guzmán](https://img.shields.io/github/followers/Dagu2104?...)](https://github.com/Dagu2104)
                     """)
@@ -329,7 +339,17 @@ with tab1:
                         unsafe_allow_html=True
                     )
         st.image("FOTO/FOTO_FPNG.png")
-        st.markdown("- [Félix Navia](https://github.com/FelixNavia1992)")
+        st.markdown(
+    """
+    <div style="font-family: Arial, sans-serif; font-size:16px; font-weight:600;">
+        • <a href="https://github.com/FelixNavia1992" target="_blank"
+             style="text-decoration:none; color:#2C3E50;">
+             Eng. Félix Navia
+          </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
         st.markdown("""
                     [![GitHub Félix Navia](https://img.shields.io/github/followers/FelixNavia1992?...)](https://github.com/FelixNavia1992)
                     """)
@@ -443,6 +463,7 @@ with tab4:                                                                      
 st.markdown("---")                                                                                                  # Horizontal separator
 
 st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Supervisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
+
 
 
 
