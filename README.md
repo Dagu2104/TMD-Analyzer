@@ -74,9 +74,13 @@ In the third tab, the program displays the following information:
 
 ### Animation Tab
 
-In this tab, the user can observe the behavior of the structure when it is being 
-- In this tab, the user can observe the structural behavior with and without the TMD under seismic loading
+In this tab, the user can observe the structural response to a seismic record and compare the behavior of the same structure with and without the TMD.
 
+-
+
+<p align="center">
+  <img src="./VISUAL README/ANIMATION.png" alt="ANIMATION" width="800" height="1200" />
+</p>
 
 
 ## Installer
