@@ -940,7 +940,7 @@ class PorticoAnalyzer:
                     row=2, col=1)                                                                                       # Add marker for current time without TMD                                   
 
         
-        fig.add_trace(go.Scatter(x=tA, y=agA, mode="lines", showlegend=False), row=2, col=2)                            # Add trace for ground acceleration with TMD
+        fig.add_trace(go.Scatter(x=tA, y=agA, mode="lines", name="ag2 (g)"), row=2, col=2)                            # Add trace for ground acceleration with TMD
         fig.add_trace(go.Scatter(x=[tA[0]], y=[agA[0]], mode="markers", marker=dict(size=10), name="t (ag)2"),
                     row=2, col=2)                                                                                       # Add marker for current time with TMD
 
@@ -950,7 +950,7 @@ class PorticoAnalyzer:
                     row=3, col=1)                                                                                       # Add marker for current response without TMD
 
         
-        fig.add_trace(go.Scatter(x=tA, y=respA_con, mode="lines", showlegend=False), row=3, col=2)
+        fig.add_trace(go.Scatter(x=tA, y=respA_con, mode="lines", name="resp2"), row=3, col=2)
         fig.add_trace(go.Scatter(x=[tA[0]], y=[respA_con[0]], mode="markers", marker=dict(size=10), name="t_with_TMD (resp)"),
                     row=3, col=2)                                                                                       # Add marker for current response with TMD
 
@@ -1145,6 +1145,7 @@ class PorticoAnalyzer:
             st.plotly_chart(fig_acc, use_container_width=False)                                                         # Display the absolute acceleration plot
 
         
+
 
 
 
