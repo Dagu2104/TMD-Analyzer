@@ -385,8 +385,8 @@ with tab1:
         MODOS.append({
             "w(rad/seg)": w[piso],
             "T(seg)": T[piso],
-            "%Participacion": Mei_pct[piso],
-            "%Participacion Acumulada": Mei_pct_acum[piso]
+            "%Participation ratio": Mei_pct[piso],
+            "%Cumulative Participation ratio": Mei_pct_acum[piso]
         })
     # Mostrar tabla resumen
     df_modos = pd.DataFrame(MODOS)
@@ -461,6 +461,7 @@ with tab4:                                                                      
     Respuesta_Acc_TMD,alturas, modelo, modelo.nice_dtick,modelo.nice_ylim)
 
 st.markdown("---")                                                                                                  # Horizontal separator
+
 
 
 
