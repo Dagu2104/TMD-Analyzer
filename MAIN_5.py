@@ -316,8 +316,11 @@ with tab1:
                     cols[0].markdown(f"Floor {i}")                                                                                     # Display floor number
                     Pesosi = cols[1].number_input(f"", min_value=0.01, max_value=300.00, value=Peso_def, step=0.05, key=f"Weight of floor_{i}") # Weight input
                     Masa.append(Pesosi/9.8067)                                                                                      # Convert weight to mass and store in list
-        st.image("FOTO/FOTO_BDGR.png")                                                                                                  # Input Image
-        st.image("FOTO/FOTO_FPNG.png")                                                                                                                            # START OF CALCULATIONS
+        st.markdown("### 👨‍💻 Team")  
+        st.image("FOTO/FOTO_BDGR.png") 
+        st.markdown("- [Bryan Guzmán](https://github.com/Dagu2104)")
+        st.image("FOTO/FOTO_FPNG.png")
+        st.markdown("- [Félix Navia](https://github.com/FelixNavia1992)")# START OF CALCULATIONS
     modelo = PorticoAnalyzer()                                                                                                      # Create model instance
     modelo.ingresar_datos(num_vanos,pisos,distancia_vanos,altura_pisos,secciones,Material)                                          # Input data into the model 
     modelo.generar_nodos()                                                                                                          # Generate nodes
@@ -416,6 +419,7 @@ with tab4:                                                                      
 st.markdown("---")                                                                                                  # Horizontal separator
 
 st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Supervisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
+
 
 
 
