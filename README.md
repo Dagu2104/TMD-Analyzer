@@ -79,7 +79,7 @@ In this tab, the user can observe the structural response to a seismic record an
 -
 
 <p align="center">
-  <img src="./VISUAL README/ANIMATION.png" alt="ANIMATION" width="500" height="800" />
+  <img src="./VISUAL README/ANIMATION.png" alt="ANIMATION" width="800" height="800" />
 </p>
 
 
