@@ -51,7 +51,8 @@ In the second tab, labeled "Seismic Record Data" the user can:
 
 In the third tab, the program displays the following information:
 
--
+- Display a table of vibration modes for the structure without the TMD, including modal frequencies and mass participation ratios, up to a cumulative mass participation of 90%. 
+- Also display a plot showing the reduction in interstory drift ratios achieved by the TMD
 <p align="center">
   <img src="./VISUAL README/RESULTS_CLOUD.png" alt="RESULTS CLOUD" width="800" height="1200" />
 </p>
