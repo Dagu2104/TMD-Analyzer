@@ -320,7 +320,14 @@ with tab1:
         st.image("FOTO/FOTO_BDGR.png") 
         st.markdown("- [Bryan Guzmán](https://github.com/Dagu2104)")
         st.image("FOTO/FOTO_FPNG.png")
-        st.markdown("- [Félix Navia](https://github.com/FelixNavia1992)")# START OF CALCULATIONS
+        st.markdown("- [Félix Navia](https://github.com/FelixNavia1992)")
+        ### **You can find me on**
+        [![Web Page](https://img.shields.io/badge/Web%20Page-bdgr.net-blue)](http:bdgr.net)
+        [![GitHub Bryan Guzmán](https://img.shields.io/github/followers/Dagu2104?label=follow&style=social)](https://github.com/Dagu2104)
+
+
+  
+                                                                                                                                    # START OF CALCULATIONS
     modelo = PorticoAnalyzer()                                                                                                      # Create model instance
     modelo.ingresar_datos(num_vanos,pisos,distancia_vanos,altura_pisos,secciones,Material)                                          # Input data into the model 
     modelo.generar_nodos()                                                                                                          # Generate nodes
@@ -419,6 +426,7 @@ with tab4:                                                                      
 st.markdown("---")                                                                                                  # Horizontal separator
 
 st.markdown("#### *Developed by Eng. Félix Patricio Navia Garcia / Eng. Bryan David Guzmán Ruano — Supervisor: Eng. Carlos Andrés Celi Sánchez, M.Sc*") ## Developers credit
+
 
 
 
