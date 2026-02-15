@@ -25,7 +25,7 @@ In the first tab, labeled "General Data" is allowed:
 </p>
 - The program displays the structure’s dynamic properties, including natural periods, angular frequencies, modal mass participation ratios (%), and cumulative mass participation ratios.
 <p align="center">
-  <img src="./VISUAL README/DYNAMIC_PROP.png" alt="TABLE DYNAMIC PROP" width="1000" height="1200" />
+  <img src="./VISUAL README/DYNAMIC_PROP.png" alt="TABLE DYNAMIC PROP" width="1200" height="1200" />
 </p>
 In the second tab, labeled "Seismic Recor Data" the user can:
 - Upload a seismic ground-motion record in PEER format. (
