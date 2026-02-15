@@ -934,24 +934,24 @@ class PorticoAnalyzer:
             name="Structure (WITH TMD)"
         ), row=1, col=2)                                                                                                # Add trace for structure with TMD
 
-        # Registro (línea) + marcador (SIN)
+        
         fig.add_trace(go.Scatter(x=tA, y=agA, mode="lines", name="ag (g)"), row=2, col=1)                               # Add trace for ground acceleration without TMD
         fig.add_trace(go.Scatter(x=[tA[0]], y=[agA[0]], mode="markers", marker=dict(size=10), name="t (ag)"),
                     row=2, col=1)                                                                                       # Add marker for current time without TMD                                   
 
-        # Registro (línea) + marcador (CON)
+        
         fig.add_trace(go.Scatter(x=tA, y=agA, mode="lines", showlegend=False), row=2, col=2)                            # Add trace for ground acceleration with TMD
-        fig.add_trace(go.Scatter(x=[tA[0]], y=[agA[0]], mode="markers", marker=dict(size=10), showlegend=False),
+        fig.add_trace(go.Scatter(x=[tA[0]], y=[agA[0]], mode="markers", marker=dict(size=10), name="t (ag)),
                     row=2, col=2)                                                                                       # Add marker for current time with TMD
 
-        # Respuesta (línea) + marcador (SIN)
+        
         fig.add_trace(go.Scatter(x=tA, y=respA_sin, mode="lines", name="resp"), row=3, col=1)
-        fig.add_trace(go.Scatter(x=[tA[0]], y=[respA_sin[0]], mode="markers", marker=dict(size=10), name="t (resp)"),
+        fig.add_trace(go.Scatter(x=[tA[0]], y=[respA_sin[0]], mode="markers", marker=dict(size=10), name="t_without_TMD (resp)"),
                     row=3, col=1)                                                                                       # Add marker for current response without TMD
 
-        # Respuesta (línea) + marcador (CON)
+        
         fig.add_trace(go.Scatter(x=tA, y=respA_con, mode="lines", showlegend=False), row=3, col=2)
-        fig.add_trace(go.Scatter(x=[tA[0]], y=[respA_con[0]], mode="markers", marker=dict(size=10), showlegend=False),
+        fig.add_trace(go.Scatter(x=[tA[0]], y=[respA_con[0]], mode="markers", marker=dict(size=10), name="t_with_TMD (resp)),
                     row=3, col=2)                                                                                       # Add marker for current response with TMD
 
         frames = []                                                                                                     # Initialize frames list
@@ -1145,6 +1145,7 @@ class PorticoAnalyzer:
             st.plotly_chart(fig_acc, use_container_width=False)                                                         # Display the absolute acceleration plot
 
         
+
 
 
 
