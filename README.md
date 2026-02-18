@@ -87,8 +87,4 @@ In this tab, the user can observe the structural response to a seismic record an
   <img src="./VISUAL README/DRIFT_ACCELERATION.png" alt="PLOTS DRIFT ACCELERATION" width="800" height="800" />
 </p>
 
-
-
-
-You can view and learn how to use the software video at the following link:
-[Video](https://puceeduec-my.sharepoint.com/:v:/g/personal/meriverabo_puce_edu_ec/EQW5ooVRLFlFh4xyy14kCcYBj21V6zmJlNoDj3jcgiUeXg?e=AQzmLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+e=AQzmLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
