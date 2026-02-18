@@ -138,11 +138,15 @@ class PorticoAnalyzer:
                      self.elementos.append(Elemento(elem_id, "columna", nodo_inf.id, nodo_sup.id, seccion, material, Longitud, float(Theta), nivel))
                      elem_id += 1
                                                                                                     ####### SECTION AND MATERIALS FOR BEAMS #######
-        for col_idx in range(num_columnas - 1):                                                     
-            max_common = min(self.column_levels[col_idx], self.column_levels[col_idx + 1])          # Determine maximum common levels between adjacent columns
-            for nivel in range(1, max_common + 1):                                                  # Generate beams at each level
+        #for col_idx in range(num_columnas - 1):                                                     
+            #max_common = min(self.column_levels[col_idx], self.column_levels[col_idx + 1])          # Determine maximum common levels between adjacent columns
+            #for nivel in range(1, max_common + 1):                                                  # Generate beams at each level
+        for col_idx in range(self.num_vanos):   # recorrer vanos, no columnas
+            n_pisos_vano = self.num_pisos_por_vano[col_idx]
+            for nivel in range(1, n_pisos_vano + 1):
                 nodo_i = self.node_map.get((col_idx, nivel))
                 nodo_j = self.node_map.get((col_idx + 1, nivel))
+                
                 if nodo_i and nodo_j:                                                               # Assign section and material properties for each beam element.
                      seccion = self.secciones_por_piso.get(nivel, {}).get("viga")                   # Assign section to beams
                      material = self.material_por_piso.get(nivel, {}).get("viga")                   # Assign material to beams
@@ -1145,6 +1149,7 @@ class PorticoAnalyzer:
             st.plotly_chart(fig_acc, use_container_width=False)                                                         # Display the absolute acceleration plot
 
         
+
 
 
 
