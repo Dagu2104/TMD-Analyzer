@@ -86,5 +86,3 @@ In this tab, the user can observe the structural response to a seismic record an
 <p align="center">
   <img src="./VISUAL README/DRIFT_ACCELERATION.png" alt="PLOTS DRIFT ACCELERATION" width="800" height="800" />
 </p>
-
-e=AQzmLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
